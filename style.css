@@ -1,0 +1,624 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4830d1;
+    color: rgb(255, 255, 255);
+}
+#container {
+    width: 100%;
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #5336ff;
+    margin: 0 auto;
+}
+
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container1 {
+    max-width: 990px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+.desktop-title {
+    position: absolute;
+    top: -140px;
+    padding: 250px;
+    width: 100%;
+}
+.topsubtitle {
+    position: absolute;
+    top: 320px;
+    padding-left: 50px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #c914be;
+    color: #ffffff;
+    font-weight: bold;
+}
+#topbuttons ul {
+    position: absolute;
+    top: 470px;
+    display: flex;
+    list-style: none;
+}
+
+#part1 {
+    background-image: url(img/BG1.png);
+}
+.sign1 {
+    display: block;
+    margin-left: auto;
+    margin-right: 400px;
+    width: 50%;
+}
+.slideshow-container1{
+    max-width: 990px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    padding-top: 3%;
+}
+.slideshow-container2{
+    max-width: 690px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+.slideshow-container3{
+    max-width: 690px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+.slideshow-container4{
+    max-width: 690px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+.slideshow-container5{
+    max-width: 690px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+@keyframes fade{
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+.textgambar1{
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 690px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 21px;
+    line-height: 32px;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 600;
+    color: #000000;
+    background-color: white;
+}
+.textgambar2{
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 837px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-size: 22px;
+    line-height: 35px;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 600;
+    color: #000000;
+}
+.textgambar3{
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 843px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-size: 21px;
+    line-height: 36px;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 600;
+    color: #000000;
+}
+.textgambar4{
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 847px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 600;
+    color: #000000;
+}
+.prev1, .next1{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next1{
+    right: 0%;
+    border-radius: 3px 0 0 3px;
+}
+.prev1:hover, .next1:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.prev2, .next2{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next2{
+    right: 0%;
+    border-radius: 3px 0 0 3px;
+}
+.prev2:hover, .next2:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.prev3, .next3{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next3{
+    right: 0%;
+    border-radius: 3px 0 0 3px;
+}
+.prev3:hover, .next3:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.prev4, .next4{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next4{
+    right: 0%;
+    border-radius: 3px 0 0 3px;
+}
+.prev4:hover, .next4:hover{
+    background-color: #ffffff;
+    color: #e35500;
+}
+.dot1{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot1:hover{
+    background-color: #000000;
+}
+.dot2{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot2:hover{
+    background-color: #000000;
+}
+.dot3{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot3:hover{
+    background-color: #000000;
+}
+.dot4{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot4:hover{
+    background-color: #000000;
+}
+.dots-container {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.plan1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+.plan1button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 78%;
+    padding: 2%;
+}
+
+#part2 {
+    background-image: url(img/BGwhite.png);
+}
+.sign2 {
+    display: block;
+    margin-left: auto;
+    margin-right: 400px;
+    width: 50%;
+}
+.slideshow-container1{
+    max-width: 990px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    padding-top: 3%;
+}
+.slideshow-container2{
+    max-width: 690px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+.slideshow-container3{
+    max-width: 690px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+@keyframes fade{
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+.textgambar1{
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 690px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 21px;
+    line-height: 32px;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 600;
+    color: #000000;
+    background-color: white;
+}
+.textgambar2{
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 837px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-size: 22px;
+    line-height: 35px;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 600;
+    color: #000000;
+}
+.textgambar3{
+    text-align: center;
+    display: block;
+    width: 100%;
+    max-width: 843px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-size: 21px;
+    line-height: 36px;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 600;
+    color: #000000;
+}
+.prev1, .next1{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next1{
+    right: 0%;
+    border-radius: 3px 0 0 3px;
+}
+.prev1:hover, .next1:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.prev2, .next2{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next2{
+    right: 0%;
+    border-radius: 3px 0 0 3px;
+}
+.prev2:hover, .next2:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.prev3, .next3{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next3{
+    right: 0%;
+    border-radius: 3px 0 0 3px;
+}
+.prev3:hover, .next3:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.prev4, .next4{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next4{
+    right: 0%;
+    border-radius: 3px 0 0 3px;
+}
+.prev4:hover, .next4:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.dot1{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot1:hover{
+    background-color: #ff0000;
+}
+.dot2{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot2:hover{
+    background-color: #ff0000;
+}
+.dot3{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot3:hover{
+    background-color: #ff0000;
+}
+.dot4{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot4:hover{
+    background-color: #ff0000;
+}
+.dots-container {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.plan2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.plan2button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 2%;
+}
+
+#part3 {
+    background-image: url(img/BG1.png);
+}
+.sign3 {
+    display: block;
+    margin-left: auto;
+    margin-right: 400px;
+    width: 50%;
+}
+.plan3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.plan3button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120%;
+    padding: 2%;
+}
+
+#part4 {
+    background-image: url(img/BGwhite.png);
+}
+.sign4 {
+    display: block;
+    margin-left: auto;
+    margin-right: 400px;
+    width: 50%;
+}
+.plan4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+

@@ -1,0 +1,296 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width. inital-scale=1.0">
+    <title>Ozora Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="top">
+            <div class="slideshow-container1 auto-slideshow">
+                <div class="slide-top fade" style="display: block;">
+                    <div class="numbertext"></div>
+                    <img src="img/01.png" style="width: 100%">
+                </div>
+                <div class="slide-top fade" style="display: none;">
+                    <div class="numbertext"></div>
+                    <img src="img/02.png" style="width: 100%">
+                </div>
+                <div class="slide-top fade" style="display: none;">
+                    <div class="numbertext"></div>
+                    <img src="img/03.png" width="100%">
+                </div>
+            </div>
+        </div>
+        <script>
+            let slideIndexTop = 0;
+            showSlidesTop();
+
+            function showSlidesTop() {
+                let i;
+                let slidesTop = document.getElementsByClassName("slide-top");
+                for (i = 0; i < slidesTop.length; i++) {
+                    slidesTop[i].style.display = "none";
+                }
+                slideIndexTop++;
+                if (slideIndexTop > slidesTop.length) { slideIndexTop = 1 }
+                slidesTop[slideIndexTop - 1].style.display = "block";
+                setTimeout(showSlidesTop, 4000); // Change image every 4 seconds
+            }
+        </script>
+        <div class="desktop-title">
+            <img src="img/Top.png" alt="">
+        </div>
+        <div class="topsubtitle">
+            <h1>「宿泊者様専用」<br>
+                大浴場などの設備や充実したサービスで
+                ファミリーやグループでゆったりとお過ごしいただけます。</h1>
+        </div>
+        <div id="topbuttons">
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/Button Top 1.png" alt="buttontop1"></a></li>
+                <li><a href="#buttont2"><img src="img/Button Top 2.png" alt="buttontop2"></a></li>
+                <li><a href="#buttont3"><img src="img/Button Top 3.png" alt="buttontop3"></a></li>
+                <li><a href="#buttont4"><img src="img/Button Top 4.png" alt="buttontop4"></a></li>
+            </ul>
+
+        <div id="part1">
+            <div class="block1">
+                <div class="sign1">
+                    <img src="img/SIGN1.png">
+        </div>
+        <!--manual slideshow 1-->
+        <div class="slideshow-container2 manual-slideshow-1">
+            <div class="slide01">
+                <img src="img/IMG1.png" style="width: 100%">
+                <div class="textgambar1">
+                    最上階の7階には、宿泊者限定でご利用できる大浴場を用意。海を一望できる大浴場で、
+                    ご家族みんなで癒やされて下さい。
+                    <br>※小学1年生以上の方は、男女別のご利用とさせていただきます。
+                </div>
+            </div>
+            <div class="slide01">
+                <img src="img/IMG12.png" style="width: 100%">
+                <div class="textgambar1">
+                    大空リゾート®からは無料のシャトルバスによるアクセスも可能です。
+                    <br>ホテルに到着したらフロントでチェックインをお済ませ下さい。
+                </div>
+            </div>
+            <div class="slide01">
+                <img src="img/IMG13.png" width="100%">
+                <div class="textgambar1">
+                    客室は全室広々設計で、ファミリーやグループみんなでくつろげます。
+                    <br>また、全室がバス・トイレ別で、洗い場付きのお風呂はお子様がいる
+                    <br>ファミリーにご好評です。
+                </div>
+            </div>
+            <div class="slide01">
+                <img src="img/IMG14.png" width="100%">
+                <div class="textgambar1">
+                    館内には、お子様連れのご家族はもちろん、さまざまな年代の方が快適に過ごしていただける施設やサービスをご用意しています。
+                </div>
+            </div>
+            <a class="prev1" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next1" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+        <div class="dots-container" style="text-align: center;">
+            <span class="dot1" onclick="currentSlides(1,0)"></span>
+            <span class="dot1" onclick="currentSlides(2,0)"></span>
+            <span class="dot1" onclick="currentSlides(3,0)"></span>
+            <span class="dot1" onclick="currentSlides(4,0)"></span>
+        </div>
+        <div class="plan1">
+            <img src="img/Kupon 1st.png">
+        </div>
+        <div class="plan1button">
+                <img src="img/Buttonkochira.png">
+                <img src="img/Buttonkochira.png">
+        </div>
+
+        <div id="part2">
+            <div class="block2">
+                <div class="sign2">
+                    <img src="img/SIGN2.png">
+        </div>
+    </div>
+    <!--manual slideshow 2-->
+    <div class="slideshow-container2 manual-slideshow-2">
+        <div class="slide02 fade">
+            <img src="img/IMG2.png" style="width: 100%">
+            <div class="textgambar1">
+                大空ホテルは「ウェルカムベビーのお宿」認定ホテルです。
+                <br>全室がバス・トイレ独立型で小さなお子様と 一緒の宿泊にも安心。
+            </div>
+        </div>
+        <div class="slide02 fade">
+            <img src="img/IMG22.png" style="width: 100%">
+            <div class="textgambar1">
+                大空ホテルは「ウェルカムベビーのお宿」認定ホテルです。
+                <br>全室がバス・トイレ独立型で小さなお子様と 一緒の宿泊にも安心。
+            </div>
+        </div>
+        <div class="slide02 fade">
+            <img src="img/IMG23.png" width="100%">
+            <div class="textgambar1">
+                大空ホテルは「ウェルカムベビーのお宿」認定ホテルです。
+                <br>全室がバス・トイレ独立型で小さなお子様と 一緒の宿泊にも安心。
+            </div>
+        </div>
+        <a class="prev2" onclick="plusSlides(-1, 1)">&#10094;</a>
+        <a class="next2" onclick="plusSlides(1, 1)">&#10095;</a>
+    </div>
+    <div class="dots-container" style="text-align: center;">
+        <span class="dot2" onclick="currentSlides(1,1)"></span>
+        <span class="dot2" onclick="currentSlides(2,1)"></span>
+        <span class="dot2" onclick="currentSlides(3,1)"></span>
+    </div>
+    <div class="plan2">
+        <img src="img/Kupon 2nd.png">
+    </div>
+    <div class="plan2button">
+            <img src="img/Button2.png">
+    </div>
+
+    <div id="part3">
+        <div class="block3">
+            <div class="sign3">
+                <img src="img/SIGN3.png">
+        </div>
+    <!--manual slideshow 3-->
+    <div class="slideshow-container3 manual-slideshow-3">
+            <div class="slide03 fade">
+                <img src="img/IMG3.png" style="width: 100%">
+                <div class="textgambar1">
+                    キャンプ用品定番のテント、シュラフ（寝袋）、キャンプベッドを客室にご用意し、お部屋でキャンプの疑似体験をしていただけます。さらに、テーブル、チェアなどのアウトドア用品、キャンプ気分を盛り上げる
+                    <br>ルーム用プラネタリウムもご用意しました。
+                </div>
+            </div>
+            <div class="slide03 fade">
+                <img src="img/IMG31.png" style="width: 100%">
+                <div class="textgambar1">
+                    キャンプ用品定番のテント、シュラフ（寝袋）、キャンプベッドを客室にご用意し、お部屋でキャンプの疑似体験をしていただけます。さらに、テーブル、チェアなどのアウトドア用品、キャンプ気分を盛り上げる
+                    <br>ルーム用プラネタリウムもご用意しました。
+                </div>
+            </div>
+            <div class="slide03 fade">
+                <img src="img/IMG32.png" width="100%">
+                <div class="textgambar1">
+                    キャンプ用品定番のテント、シュラフ（寝袋）、キャンプベッドを客室にご用意し、お部屋でキャンプの疑似体験をしていただけます。さらに、テーブル、チェアなどのアウトドア用品、キャンプ気分を盛り上げる
+                    <br>ルーム用プラネタリウムもご用意しました。
+                </div>
+            </div>
+            <div class="slide03 fade">
+                <img src="img/IMG33.png" width="100%">
+                <div class="textgambar1">
+                    キャンプ用品定番のテント、シュラフ（寝袋）、キャンプベッドを客室にご用意し、お部屋でキャンプの疑似体験をしていただけます。さらに、テーブル、チェアなどのアウトドア用品、キャンプ気分を盛り上げる
+                    <br>ルーム用プラネタリウムもご用意しました。
+                </div>
+            <div class="slide03 fade">
+                <img src="img/IMG34.png" width="100%">
+                <div class="textgambar1">
+                    キャンプ用品定番のテント、シュラフ（寝袋）、キャンプベッドを客室にご用意し、お部屋でキャンプの疑似体験をしていただけます。さらに、テーブル、チェアなどのアウトドア用品、キャンプ気分を盛り上げる
+                    <br>ルーム用プラネタリウムもご用意しました。
+                </div>
+        </div>
+            <a class="prev3" onclick="plusSlides(-1, 2)">&#10094;</a>
+            <a class="next3" onclick="plusSlides(1, 2)">&#10095;</a>
+        </div>
+            <div class="dots-container" style="text-align: center;">
+            <span class="dot3" onclick="currentSlides(1,2)"></span>
+            <span class="dot3" onclick="currentSlides(2,2)"></span>
+            <span class="dot3" onclick="currentSlides(3,2)"></span>
+            <span class="dot3" onclick="currentSlides(4,2)"></span>
+        </div>
+        <div class="plan3">
+            <img src="img/Kupon 3rd.png">
+        </div>
+        <div class="plan3button">
+                <img src="img/Buttonkochira.png">
+                <img src="img/Buttonkochira.png">
+        </div>
+
+    <div id="part4">
+        <div class="block4">
+            <div class="sign4">
+                <img src="img/SIGN4.png">   
+        </div>
+        <!--manual slideshow 4-->
+        <div class="slideshow-container4 manual-slideshow-4">
+            <div class="slide04 fade">
+                <img src="img/IMG4.png" style="width: 100%">
+                <div class="textgambar1">
+                    パフォーマンスキッチンでシェフが目の前で仕上げる特製料理が盛りだくさん。ハンバーガーや、お好みの具材を選べるオムレツもシェフが目の前で焼き上げます。
+                    <br>また、お子様に好評のメニューをそろえたキッズブッフェコーナーもあり、ご家族みなさまでお楽しみいただけます。
+                </div>
+            </div>
+            <div class="slide04 fade">
+                <img src="img/IMG41.png" style="width: 100%">
+                <div class="textgambar1">
+                    パフォーマンスキッチンでシェフが目の前で仕上げる特製料理が盛りだくさん。ハンバーガーや、お好みの具材を選べるオムレツもシェフが目の前で焼き上げます。
+                    <br>また、お子様に好評のメニューをそろえたキッズブッフェコーナーもあり、ご家族みなさまでお楽しみいただけます。
+                </div>
+            </div>
+            <div class="slide04 fade">
+                <img src="img/IMG42.png" width="100%">
+                <div class="textgambar1">
+                    パフォーマンスキッチンでシェフが目の前で仕上げる特製料理が盛りだくさん。ハンバーガーや、お好みの具材を選べるオムレツもシェフが目の前で焼き上げます。
+                    <br>また、お子様に好評のメニューをそろえたキッズブッフェコーナーもあり、ご家族みなさまでお楽しみいただけます。
+                </div>
+            </div>
+            <div class="slide04 fade">
+                <img src="img/IMG43.png" width="100%">
+                <div class="textgambar1">
+                    パフォーマンスキッチンでシェフが目の前で仕上げる特製料理が盛りだくさん。ハンバーガーや、お好みの具材を選べるオムレツもシェフが目の前で焼き上げます。
+                    <br>また、お子様に好評のメニューをそろえたキッズブッフェコーナーもあり、ご家族みなさまでお楽しみいただけます。
+                </div>
+            </div>
+            <a class="prev4" onclick="plusSlides(-1, 3)">&#10094;</a>
+            <a class="next4" onclick="plusSlides(1, 3)">&#10095;</a>
+        </div>
+        <div class="dots-container" style="text-align: center;">
+            <span class="dot4" onclick="currentSlides(1,3)"></span>
+            <span class="dot4" onclick="currentSlides(2,3)"></span>
+            <span class="dot4" onclick="currentSlides(3,3)"></span>
+            <span class="dot4" onclick="currentSlides(4,3)"></span>
+        </div> 
+        <div class="review4">
+            <img src="img/Review.png">
+    </div>
+    
+    </div>
+    <script>
+        let slideIndex = [1, 1, 1, 1];
+        let slideId = ["slide01", "slide02", "slide03", "slide04"]
+        let dotId = ["dot1", "dot2", "dot3", "dot4"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+        showSlides(1, 2);
+        showSlides(1, 3);
+        function plusSlides(n, no) {
+        showSlides(slideIndex[no] += n, no);
+        }
+        function currentSlides(n, no) {
+        showSlides((slideIndex[no] = n), no);
+        }
+        function showSlides(n, no) {
+        let i;
+        let x = document.getElementsByClassName(slideId[no]);
+        let dots = document.getElementsByClassName(dotId[no]);
+        if (n > x.length) { slideIndex[no] = 1 }
+        if (n < 1) { slideIndex[no] = x.length }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        x[slideIndex[no] - 1].style.display = "block";
+        dots[slideIndex[no]-1].className += " active";
+        }
+    </script>
+    </body>
+    </html>
+
+
+
+
